@@ -1,0 +1,72 @@
+{
+  "run_id": "satisfaction_model_20261008_130703",
+  "code_version": "no-git|data:9409e451badf",
+  "start_time": "2026-10-08T13:07:03.012728",
+  "end_time": "2026-10-08T13:07:18.009420",
+  "duration_seconds": 14.996692,
+  "train_seconds": 14.399263858795166,
+  "source": {
+    "notebook": "Section 7.8 \u2014 Regression Modelling",
+    "data_file": "../data/telcom_data (2).xlsx",
+    "feature_store": "data/feature_store/customer_features_v20261008.parquet",
+    "features": [
+      "xDR Sessions",
+      "Total Duration (s)",
+      "Total Data Volume (Bytes)",
+      "Avg TCP Retransmission (Bytes)",
+      "Avg RTT (ms)",
+      "Avg Throughput (kbps)"
+    ],
+    "target": "Satisfaction Score (behavioural proxy)"
+  },
+  "model": "Gradient Boosting",
+  "parameters": {
+    "alpha": 0.9,
+    "ccp_alpha": 0.0,
+    "criterion": "deprecated",
+    "init": null,
+    "learning_rate": 0.1,
+    "loss": "squared_error",
+    "max_depth": 3,
+    "max_features": null,
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "n_estimators": 200,
+    "n_iter_no_change": null,
+    "random_state": 42,
+    "subsample": 1.0,
+    "tol": 0.0001,
+    "validation_fraction": 0.1,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "random_state": 42,
+  "is_deployed": true,
+  "model_path": "outputs/models/satisfaction_model_20261008_130703.joblib",
+  "metrics": {
+    "MAE": 0.008180819554056206,
+    "RMSE": 0.011851348280448966,
+    "R2": 0.9921376125967777,
+    "final_train_loss": 6.761928853077782e-05,
+    "final_test_loss": 7.022722803225033e-05,
+    "iterations_to_within_1pct_of_final_test_loss": 198
+  },
+  "library_versions": {
+    "python": "3.14.3",
+    "scikit-learn": "1.9.0",
+    "pandas": "3.0.3",
+    "numpy": "2.5.0",
+    "shap": "0.52.0"
+  },
+  "artifacts": [
+    "outputs/models/satisfaction_model_20261008_130703.joblib",
+    "figures/fig8_loss_curve.png",
+    "figures/fig7c_shap_beeswarm.png",
+    "figures/fig7d_shap_bar.png",
+    "outputs/customer_satisfaction_scores.csv",
+    "data/feature_store/customer_features_v20261008.parquet"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "run_id": "satisfaction_model_20261008_131843",
+  "code_version": "no-git|data:7e8fdc88fadb",
+  "pipeline_version": "1.2.0",
+  "start_time": "2026-10-08T13:18:43",
+  "end_time": "2026-10-08T13:19:16",
+  "duration_seconds": 32.6,
+  "source": {
+    "data_fingerprint": "39def91948f8",
+    "n_customers": 106856,
+    "features": [
+      "xDR Sessions",
+      "Total Duration (s)",
+      "Total Data Volume (Bytes)",
+      "Avg TCP Retransmission (Bytes)",
+      "Avg RTT (ms)",
+      "Avg Throughput (kbps)"
+    ],
+    "target": "Satisfaction Score = mean(engagement score, experience score)"
+  },
+  "model": "Gradient Boosting",
+  "parameters": {
+    "n_estimators": 200,
+    "max_depth": 3,
+    "random_state": 42
+  },
+  "split": "80/20, random_state=42",
+  "metrics": {
+    "MAE": 0.008181,
+    "RMSE": 0.01185,
+    "R2": 0.992139,
+    "final_train_loss": 6.762e-05,
+    "final_test_loss": 7.022e-05,
+    "iterations_to_within_1pct_of_final_test_loss": 198
+  },
+  "best_by_test_r2": "Gradient Boosting",
+  "model_path": "outputs/models/satisfaction_model_20261008_131843.joblib"
+}

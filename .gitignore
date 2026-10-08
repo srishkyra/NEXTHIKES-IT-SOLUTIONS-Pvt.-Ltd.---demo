@@ -1,0 +1,16 @@
+data/
+*.pkl
+*.xlsx
+feature_store/*.parquet
+outputs/customer_satisfaction_scores.csv
+outputs/customer_scores.csv
+outputs/mysql_export.json
+docs/mysql_select_screenshot.png
+mlflow.db
+mlartifacts/
+mlruns/
+*.egg-info/
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.DS_Store

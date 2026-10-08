@@ -1,0 +1,2 @@
+deployed_run_id,deployed_at,model_path,model,R2
+satisfaction_model_20261008_135710,2026-10-08T13:57:26.106607,outputs/models/satisfaction_model_20261008_135710.joblib,Gradient Boosting,0.9921376125967777

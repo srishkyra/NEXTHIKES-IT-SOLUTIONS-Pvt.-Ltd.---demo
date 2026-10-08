@@ -1,0 +1,102 @@
+[
+  {
+    "version": "20261008_131456",
+    "pipeline_version": "1.2.0",
+    "path": "feature_store/customer_features_v20261008_131456.parquet",
+    "rows": 106856,
+    "created": "2026-10-08T13:14:56",
+    "source": "data/telcom_data (2).xlsx",
+    "sha256": "cc8d88a680cb13a8",
+    "features": {
+      "xDR Sessions": "int64",
+      "Total Duration (s)": "float64",
+      "Total Data Volume (Bytes)": "float64",
+      "Avg TCP Retransmission (Bytes)": "float64",
+      "Avg RTT (ms)": "float64",
+      "Avg Throughput (kbps)": "float64",
+      "Most Frequent Handset": "str",
+      "Engagement Cluster": "int64",
+      "Engagement Score": "float64",
+      "Experience Cluster": "int64",
+      "Experience Score": "float64",
+      "Satisfaction Cluster": "int64",
+      "Satisfaction Score": "float64",
+      "Satisfaction Score (scaled)": "float64"
+    }
+  },
+  {
+    "version": "20261008_131718",
+    "pipeline_version": "1.2.0",
+    "path": "feature_store/customer_features_v20261008_131718.parquet",
+    "rows": 106856,
+    "created": "2026-10-08T13:17:18",
+    "source": "data/telcom_data (2).xlsx",
+    "sha256": "024cfea56a16fda6",
+    "features": {
+      "xDR Sessions": "int64",
+      "Total Duration (s)": "float64",
+      "Total Data Volume (Bytes)": "float64",
+      "Avg TCP Retransmission (Bytes)": "float64",
+      "Avg RTT (ms)": "float64",
+      "Avg Throughput (kbps)": "float64",
+      "Most Frequent Handset": "str",
+      "Engagement Cluster": "int64",
+      "Engagement Score": "float64",
+      "Experience Cluster": "int64",
+      "Experience Score": "float64",
+      "Satisfaction Cluster": "int64",
+      "Satisfaction Score": "float64",
+      "Satisfaction Score (scaled)": "float64"
+    }
+  },
+  {
+    "version": "20261008_131820",
+    "pipeline_version": "1.2.0",
+    "path": "feature_store/customer_features_v20261008_131820.parquet",
+    "rows": 106856,
+    "created": "2026-10-08T13:18:20",
+    "source": "data/telcom_data (2).xlsx",
+    "sha256": "0f15c59d97d0dc52",
+    "features": {
+      "xDR Sessions": "int64",
+      "Total Duration (s)": "float64",
+      "Total Data Volume (Bytes)": "float64",
+      "Avg TCP Retransmission (Bytes)": "float64",
+      "Avg RTT (ms)": "float64",
+      "Avg Throughput (kbps)": "float64",
+      "Most Frequent Handset": "str",
+      "Engagement Cluster": "int64",
+      "Engagement Score": "float64",
+      "Experience Cluster": "int64",
+      "Experience Score": "float64",
+      "Satisfaction Cluster": "int64",
+      "Satisfaction Score": "float64",
+      "Satisfaction Score (scaled)": "float64"
+    }
+  },
+  {
+    "version": "20261008_131843",
+    "pipeline_version": "1.2.0",
+    "path": "feature_store/customer_features_v20261008_131843.parquet",
+    "rows": 106856,
+    "created": "2026-10-08T13:18:43",
+    "source": "data/telcom_data (2).xlsx",
+    "sha256": "024cfea56a16fda6",
+    "features": {
+      "xDR Sessions": "int64",
+      "Total Duration (s)": "float64",
+      "Total Data Volume (Bytes)": "float64",
+      "Avg TCP Retransmission (Bytes)": "float64",
+      "Avg RTT (ms)": "float64",
+      "Avg Throughput (kbps)": "float64",
+      "Most Frequent Handset": "str",
+      "Engagement Cluster": "int64",
+      "Engagement Score": "float64",
+      "Experience Cluster": "int64",
+      "Experience Score": "float64",
+      "Satisfaction Cluster": "int64",
+      "Satisfaction Score": "float64",
+      "Satisfaction Score (scaled)": "float64"
+    }
+  }
+]
